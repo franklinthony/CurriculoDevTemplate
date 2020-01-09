@@ -1,0 +1,155 @@
+% a mashup of hipstercv / timelinecv and awesome-cv.
+% https://www.latextemplates.com/template/awesome-resume-cv
+
+\documentclass[blue]{pastelcv}
+% available options are: turquoise, red, lighthipsterblue, rose, blue, pastelgreen,
+% grey, allblack
+\usepackage[utf8x]{inputenc}
+
+\usepackage[familydefault,light]{Chivo} %% Option 'familydefault' only if the base font of the document is to be sans serif
+\usepackage[default]{raleway}
+\usepackage[T1]{fontenc}
+
+
+
+
+\getpagesetup
+
+%------------------------------------------------------------------
+\title{Pastel CV}
+\author{\LaTeX{} Ninja}
+\date{December 2019}
+
+
+\begin{document}
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\begin{center}
+
+\headername{Franklin A. R. Coêlho}{}
+
+\jobdescription{Graduando em Engenharia de Computação} %~•~ Análise de Dados ~•~ Inteligência Artificial%}
+
+%\adressline{The Black Pearl, Tortuga, The East Indies. The Black Pearl, Tortuga, The East Indies.}
+ 
+\getgreyishblackfont
+
+{
+\small
+\headersymbols{%
+ \faPhone/83 98807 2528,
+ \faAt/franklinanthony@eng.ci.ufpb.br,
+ \faGithub/\href{https://github.com/franklinthony}{franklinthony}
+}
+}
+
+%\headerquote{Make something of yourself instead of trying to impress people.}
+
+\end{center}
+
+\vspace{1cm}
+
+%------------------------------------------------
+
+\setupparacol
+\begin{paracol}{2}
+
+
+\fancysection{cvcolour}{}{Formação Acadêmica}
+\begin{tabular}{r| p{\onethirdwidth}}
+    \cvevent{2018}{Graduação em andamento em Engenharia de Computação}{Centro de Informática}{UFPB\color{cvaltcolour}}{}
+    %\cvevent{2016--2017}{Captain of the Black Pearl}{Lead}{Tortuga \color{cvaltcolour}}{Found a secret treasure, lost the ship. \lorem}
+\end{tabular}
+\vspace{1em}
+
+\fancysection{cvcolour}{}{Formação Complementar}
+
+\begin{tabular}{r| p{\onethirdwidth}}
+    \cvevent{2019}{Machine Learning e Data Science com Pytthon}{UDEMY}{USA\color{cvaltcolour}}{} \\
+    \cvevent{2019}{Visão Computacional e suas Aplicações}{Centro de Informática}{UFPB\color{cvaltcolour}}{} \\
+    \cvevent{2019}{Introdução ao TensorFlow}{Centro de Informática}{UFPB\color{cvaltcolour}}{} \\
+    \cvevent{2018}{Ferramentas de Computação Interativa}{Centro de Informática}{UFPB\color{cvaltcolour}}{} \\
+    \cvevent{2017}{Introdução a Python 3}{Centro de Informática}{UFPB\color{cvaltcolour}}{}
+\end{tabular}
+\vspace{1em}
+
+\fancysection{cvcolour}{}{Programação}
+
+\progressarc{2mm}{cvcolour}{1cm}{cvaltcolour}{\large\bf \textbf{C}}{Programação \\ Estruturada}{below}{80}
+\progressarc{2mm}{cvcolour}{1cm}{cvaltcolour}{\large\bf \textbf{C++}}{Programação \\ Orientada a Objeto}{below}{80}
+\progressarc{2mm}{cvcolour}{1cm}{cvaltcolour}{\large\bf \textbf{Python}}{Análise de \\ Dados}{below}{60}
+\vspace{1em}
+
+\fancysection{cvcolour}{}{Idiomas}
+
+\begin{tabular}{l | ll}
+\textbf{Português} & {\phantom{x}\footnotesize Língua materna} \\
+\textbf{Inglês} & \pictofraction{\faCircle}{cvcolour}{2}{black!30}{3}{\tiny} \\
+\textbf{Espanhol} & \pictofraction{\faCircle}{cvcolour}{2}{black!30}{3}{\tiny}
+\end{tabular}
+\vspace{1em}
+
+%fancysection{cvcolour}{}{Programação \#2}
+%
+%\begin{minipage}[t]{\paracolwidth}
+%\begin{tabular}{r @{\hspace{0.5em}}l}
+%     \LaTeX{} & \barrule{0.6}{0.5em}{cvcolour} \\
+%     Markdown & \barrule{0.25}{0.5em}{cvcolour} \\
+%     javascript & \barrule{0.1}{0.5em}{cvcolour} \\
+%\end{tabular}
+%\end{minipage}
+%\vspace{1em}
+%
+
+%-----------------------------------------------------------
+\switchcolumn
+
+\fancysection{cvcolour}{}{Atuação}
+
+\textsc{\large Bolsista}\\[0.5em]
+
+\begin{tabular}{r| p{\onethirdwidth}}
+    \cvevent{2019}{Tutor da disciplina Cálculo Diferencial e Integral II}{Centro de Informática}{UFPB\color{cvaltcolour}}{Programa de Tutoria (PROTUT), do Centro de Informática da Universidade Federal da Paraíba} \\
+    \cvevent{2018}{Tutor da disciplina Cálculo Vetorial e Geometria Analítica}{Centro de Informática}{UFPB\color{cvaltcolour}}{Programa de Tutoria (PROTUT), do Centro de Informática da Universidade Federal da Paraíba}
+\end{tabular}
+\vspace{1em}
+
+\textsc{\large Voluntário}\\[0.5em]
+
+\begin{tabular}{r| p{\onethirdwidth}}
+    \cvevent{2019}{Aluno extensionista no projeto "Multiverso STEM: difusão do conhecimento em ciência, tecnologia, matemática e computação"}{Centro de Informática}{UFPB\color{cvaltcolour}}{} \\
+    \cvevent{2019}{Aluno extensionista  na Equipe Literacia de Inovação Tecnológica em Saúde -- ELITS}{Centro de Ciências da Saúde}{UFPB\color{cvaltcolour}}{}\\
+    \cvevent{2018}{Aluno extensionista no projeto "www.BMC: mostrando a Matemática Computacional da UFPB para o mundo através da internet"}{Centro de Informática}{UFPB\color{cvaltcolour}}{}\\
+    \cvevent{2018}{Aluno extensionista no projeto "Pensamento Computacional no auxílio das aulas de Robótica na EEEFM José Lins do Rego -- Pilar -- PB"}{Centro de Informática}{UFPB\color{cvaltcolour}}{}
+\end{tabular}
+\vspace{1em}
+
+%-----------------------------------------------------------
+\switchcolumn
+
+\begin{tabular}{r| p{\onethirdwidth}}
+    \cvevent{2017}{Secretário júnior na instituição Compassion International}{Campina Grande}{PB\color{cvaltcolour}}{A Compassion International é uma organização evangélica interdenominacional, sem fins lucrativos, cujo objetivo é ajudar crianças em situação de risco ao redor do mundo}
+\end{tabular}
+\vspace{1em}
+
+\fancysection{cvcolour}{}{Patentes \& Registros}
+
+\begin{tabular}{r| p{\onethirdwidth}}
+    \cvevent{2019}{Otoscópio Pediátrico com Captação de Imagem}{Universidade Federal da Para[iba}{UFPB\color{cvaltcolour}}{\textbf{Instituição de registro}: INPI - Instituto Nacional da Propriedade Industrial \newline \textbf{Número do registro}: BR10201902817}
+\end{tabular}
+\vspace{1em}
+
+\fancysection{cvcolour}{}{Prêmios \& Títulos}
+
+\begin{tabular}{r| p{\onethirdwidth}}
+    \cvevent{2019}{Prêmio de melhor trabalho no Encontro de Iniciação à Docência}{Universidade Federal da Para[iba}{UFPB\color{cvaltcolour}}{Resumo "E-books Tutoriais para Cursos Introdutórios de Matemática: Algoritmos
+Computacionais no Suporte à Resolução de Problemas" (PROTUT/CI 2019)} \\
+    \cvevent{2018}{Prêmio Elo Cidadão de Extensão Universitária}{Universidade Federal da Para[iba}{UFPB\color{cvaltcolour}}{Projeto "Pensamento Computacional no auxílio das aulas de Robótica na EEEFM José Lins do Rego -- Pilar -- PB"}
+\end{tabular}
+\vspace{1em}
+
+\end{paracol}
+
+\end{document}
