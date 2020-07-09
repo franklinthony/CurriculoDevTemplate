@@ -37,4 +37,4 @@ Esta pequena aplicação visou desenvolver um currículo em LaTeX, com opções 
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch. a
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
