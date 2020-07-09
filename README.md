@@ -28,7 +28,7 @@
 
 ## 💻 Projeto
 
-Este pequena aplicação visou desenvolver um currículo dev em LaTeX, com opções que interessam essa vertente, como experiência com linguagens de progrmação, dentre outras opções. 
+Esta pequena aplicação visou desenvolver um currículo em LaTeX, com opções que interessam àqueles(as) que atuam nas mais variadas áreas da tecnologia, como experiência com linguagens de progrmação, dentre outras opções. 
 
 ## 🤔 Como contribuir
 
